@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: rgb(70, 67, 67);
+}
+
+.heading {
+ text-align: center;
+ padding: 1.5rem;
+ margin: 3rem;
+ color: #fff;
+ letter-spacing: 2px;
+}
+
+.item {
+  overflow: hidden;
+  opacity: 1;
+  padding: 0;
+}
+
+img {
+  border: 1px solid #fff;
+}
+
+.item, .image {
+  transition: .8s all ease-in-out;
+}
+
+/* .multi-row {
+  margin-top: 1.5rem;
+} */
+
+@media (min-width: 576px) {
+  .zoom-on-hover:hover .image {
+    transform: scale(1.2);
+    opacity: .5;
+  }
+}
+
+@media (max-width: 766px) {
+  .item {
+    margin-bottom: 20px !important;
+  }
+}
+

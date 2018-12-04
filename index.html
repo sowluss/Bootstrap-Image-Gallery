@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap Image Gallery</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section class="gallery-block compact-gallery">
+
+  <div class="container">
+
+    <div class="heading">
+      <h2>Bootstrap Gallery</h2>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-4 col-xs-6 item zoom-on-hover">
+        <a href="img/juglas-street_pic1.jpeg">
+          <img src="img/juglas-street_pic1.jpeg" class="img-fluid image" alt="">
+        </a>
+      </div>
+
+      <div class="col-md-4 col-xs-6 item zoom-on-hover">
+        <a href="img/juglas-street_pic2.jpeg">
+          <img src="img/juglas-street_pic2.jpeg" class="img-fluid image" alt="">
+        </a>
+      </div>
+
+      <div class="col-md-4 col-xs-6 item zoom-on-hover">
+        <a href="img/juglas-street_pic3.jpeg">
+          <img src="img/juglas-street_pic3.jpeg" class="img-fluid image" alt="">
+        </a>
+      </div>
+
+    </div>
+
+    <div class="row multi-row">
+
+        <div class="col-md-4 col-xs-6 item zoom-on-hover">
+          <a href="img/braila_pic1.jpg">
+            <img src="img/braila_pic1.jpg" class="img-fluid image" alt="">
+          </a>
+        </div>
+  
+        <div class="col-md-4 col-xs-6 item zoom-on-hover">
+          <a href="img/braila_pic2.jpg">
+            <img src="img/braila_pic2.jpg" class="img-fluid image" alt="">
+          </a>
+        </div>
+  
+        <div class="col-md-4 col-xs-6 item zoom-on-hover">
+          <a href="img/braila_pic3.jpg">
+            <img src="img/braila_pic3.jpg" class="img-fluid image" alt="">
+          </a>
+        </div>
+  
+      </div>
+
+      <div class="row multi-row">
+
+          <div class="col-md-4 col-xs-6 item zoom-on-hover">
+            <a href="img/oak-street_pic1.jpg">
+              <img src="img/oak-street_pic1.jpg" class="img-fluid image" alt="">
+            </a>
+          </div>
+    
+          <div class="col-md-4 col-xs-6 item zoom-on-hover">
+            <a href="img/oak-street_pic2.jpeg">
+              <img src="img/oak-street_pic2.jpeg" class="img-fluid image" alt="">
+            </a>
+          </div>
+    
+          <div class="col-md-4 col-xs-6 item zoom-on-hover">
+            <a href="img/oak-street_pic3.jpg">
+              <img src="img/oak-street_pic3.jpg" class="img-fluid image" alt="">
+            </a>
+          </div>
+    
+        </div>
+
+
+
+  </div>
+
+</section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js "></script>
+
+  <script>
+  
+  baguetteBox.run('.compact-gallery', {animation: "slideIn"});  
+  </script>
+</body>
+
+</html>
